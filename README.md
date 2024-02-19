@@ -19,12 +19,6 @@ Uncover the hidden secrets of the plant world with Botani-Know, your friendly po
     - Students: In-depth botanical knowledge, comprehensive descriptions, morphological details, fascinating ecological interactions.
     - General Users: Discover fascinating facts, traditional uses, cultural significance, and potential culinary applications.
 
-- **Engaging Learning Experience:**
-  - Immerse yourself in rich multimedia content:
-    - Informative videos hosted by experts.
-    - Stunning high-resolution plant images.
-    - Interactive diagrams and illustrations.
-
 **Getting Started:**
 
 -> **Install as a PWA:** - Access "Botani-Know" through your web browser. - Install it as a Progressive Web App for an enhanced mobile experience.
