@@ -1,12 +1,11 @@
 "use client";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import LowerStem from "/public/images/Lower Stem.svg";
+import LowerStem from "/public/images/LowerStem.svg";
 import P1 from "/public/images/P1.svg";
 import Result from "/public/images/Result.svg";
 import Server from "/public/images/Server.svg";
-import UpperStem from "/public/images/Upper Stem.svg";
-
+import UpperStem from "/public/images/UpperStem.svg";
 
 export default function Home() {
 	const router = useRouter();
@@ -39,7 +38,7 @@ export default function Home() {
 			console.log("====================================");
 			localStorage.setItem("name", data.jsonResponse.name);
 
-			router.push(`/main?plant=${((data.jsonResponse.name) as string ) }`);
+			router.push(`/main?plant=${data.jsonResponse.name as string}`);
 		} else {
 			alert("File is not an image");
 		}
@@ -61,7 +60,7 @@ export default function Home() {
 							onChange={handleFileChange}
 							required
 						/>
-						Scan Now! 
+						Scan Now!
 					</label>
 				</div>
 			</section>
